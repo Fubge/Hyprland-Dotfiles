@@ -15,12 +15,10 @@
         	"clock"
     ],
     "modules-right": [
-        "mpd",
-        "pulseaudio",
         "network",
         "cpu",
         "memory",
-        "temperature",
+	"pulseaudio",
         "tray",
 	"custom/power"
     ],
@@ -100,7 +98,6 @@
 	"interval": 5
     },
     "temperature": {
-"min-length": 10,
         "critical-threshold": 80,
         "format": "{temperatureC}°C"
     },
@@ -136,7 +133,6 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
     "custom/power": {
-	"min-length": 5,
         "format" : "⏻ ",
 		"tooltip": false,
 		"menu": "on-click",
