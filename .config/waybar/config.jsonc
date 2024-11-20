@@ -5,6 +5,23 @@
     "margin-left": 15,
     "margin-right": 15,
     "spacing": 0,      
+    "group/hardware": {
+		"orientation": "horizontal",
+		"modules": [
+			"network",
+			"cpu",
+			"memory"
+		]
+    },
+    
+   "group/audio": {
+		"orientation": "horizontal",
+		"modules": [
+		"pulseaudio",
+                "tray",
+	        "custom/power"
+		]
+    },
 
     "modules-left": [
         "hyprland/workspaces",
@@ -15,12 +32,8 @@
         	"clock"
     ],
     "modules-right": [
-        "network",
-        "cpu",
-        "memory",
-	"pulseaudio",
-        "tray",
-	"custom/power"
+        "group/hardware",
+	"group/audio"
     ],
      //Modules configuration
      "hyprland/workspaces": {
@@ -68,13 +81,13 @@
         "tooltip-format-disconnected": "MPD (disconnected)"
     },
     "tray": {
-        "spacing": 10, 
+        "spacing": 20, 
 	"icon-size": 20
     },
     "clock": {
 	"timezone": "Europe/Berlin",
         "locale": "de_DE.UTF-8",
-	"format": "{:L%H : %M %A, %d.%m}",
+	"format": "{:L%H : %M %A, der %d.%m}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
 	"calendar": {
 		"mode"          : "month",
