@@ -18,8 +18,7 @@
 		"orientation": "horizontal",
 		"modules": [
 		"pulseaudio",
-                "tray",
-	        "custom/power"
+                "tray"
 		]
     },
 

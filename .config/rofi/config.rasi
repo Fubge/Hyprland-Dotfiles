@@ -12,10 +12,10 @@ configuration {
 @theme "/dev/null"
 
 * {
-    background: rgba(20, 140, 180, 0.5);
+    background:rgba(50, 50, 50, 0.8);
     foreground: #E5E9F0;
     border-color: @background;
-    bg-selected: rgba(255, 165, 0, 0.8);
+    bg-selected: rgba(210, 85, 12, 1);
     grey: #565c64;
     spacing: 2;
     width: 30em;

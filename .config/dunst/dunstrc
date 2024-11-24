@@ -2,8 +2,8 @@
     # Display
     monitor = 0
     follow = mouse
-    width = 300
-    height = 100
+    width = 375
+    height = 125
     origin = top-right
     offset = 10x50
     scale = 0
