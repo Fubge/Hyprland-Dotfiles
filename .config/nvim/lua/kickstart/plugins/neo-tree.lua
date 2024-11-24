@@ -20,6 +20,10 @@ return {
           ['<Tab>'] = 'close_window',
         },
       },
+      filtered_items = {
+        hide_dotfiles = false, -- Versteckte Dateien (Dateien, die mit . anfangen) anzeigen
+        hide_gitignored = false, -- Git-ignorierte Dateien anzeigen
+      },
     },
   },
 }
