@@ -14,5 +14,3 @@ alias config='/usr/bin/git --git-dir=/home/marvin/.cfg/ --work-tree=/home/marvin
 export XDG_CURRENT_DESKTOP=Hyprland
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
-#run neofetch on start 
-neofetch
