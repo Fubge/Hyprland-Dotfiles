@@ -1,7 +1,7 @@
 format = """
 [ ](fg:#23329A)\
 $git_branch\
-[ ](fg:#23329A bg:#33658A)\
+[ ](fg:#23329A bg:#33658A)\
 $git_status\
 [ ](fg:#33658A)\
 """
