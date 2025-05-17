@@ -1,11 +1,21 @@
 format = """
-[ ](fg:#23329A)\
+[ ](fg:#00BFFF)\
+$directory\
+[ ](fg:#00BFFF bg:#1E90FF)\
+[](fg:#1E90FF bg:#1E90FF)\
 $git_branch\
-[ ](fg:#23329A bg:#33658A)\
+[](fg:#1E90FF bg:#836FFF)\
+[](fg:#836FFF bg:#836FFF)\
 $git_status\
-[ ](fg:#33658A)\
+[ ](fg:#836FFF)\
 """
+
 command_timeout = 5000
+add_newline = true
+
+[directory]
+style = "bg:#00BFFF"
+format = '[$path]($style)'
 
 [git_branch]
 style = "bg:#23329A"
@@ -15,4 +25,6 @@ always_show_remote = true
 [git_status]
 style = "bg:#33658A"
 format = '[$all_status$ahead_behind ]($style)'
+
+
 
