@@ -5,15 +5,15 @@
 }
 
 .modules-center {
-    background: rgba(210, 85, 12, 1)
+background: rgba(210, 85, 12, 1)
 }
 
 .modules-left {
-    background: rgba(100, 100, 100, 1);
+background: rgba(100, 100, 100, 1);
 }
 
 .modules-right {
-    background: rgba(100, 100, 100, 1);
+background: rgba(100, 100, 100, 1);
 }
 
 .modules-left > widget:first-child > #workspaces {
@@ -34,7 +34,7 @@ window#waybar {
 }
 
 #audio {
-     background: rgba(30, 30, 30, 0.9);
+ background: rgba(30, 30, 30, 0.9);
 }
 
 #workspaces button {
@@ -66,26 +66,20 @@ window#waybar {
 }
 
 #network {
-    padding-left: 2;
-    padding-right: 20;
-}
-
-
-#temperature {
-    padding-right: 20;
+    padding-left: 20;
 }
 
 #cpu {
-    padding-right: 20;
+    padding-right: 15;
 }
 
 #memory {
-    padding-right: 20;
+    padding-right: 12;
 }
 
 #pulseaudio {
 	padding-right: 14;
-	padding-left: 20;
+	padding-left: 15;
 }
 
 #tray {
