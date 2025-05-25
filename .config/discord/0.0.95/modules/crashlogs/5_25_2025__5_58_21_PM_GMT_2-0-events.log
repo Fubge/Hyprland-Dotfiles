@@ -1,0 +1,46 @@
+5/25/2025, 5:58:21 PM GMT+2 0: 
+
+----------------------------------------------
+5/25/2025, 5:58:21 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.95"}, modulepath: /home/marvin/.config/discord/0.0.95/modules
+5/25/2025, 5:58:21 PM GMT+2 2: ✅ webContents.created web1 ""
+5/25/2025, 5:58:21 PM GMT+2 3: ✅ window.created win1 "discord"
+5/25/2025, 5:58:21 PM GMT+2 4: ✅ webContents.did-finish-load web1
+5/25/2025, 5:58:27 PM GMT+2 5: ✅ webContents.created web2 ""
+5/25/2025, 5:58:27 PM GMT+2 6: ✅ window.created win2 "Discord"
+5/25/2025, 5:58:28 PM GMT+2 7: ✅ webContents.did-finish-load web2
+5/25/2025, 5:58:28 PM GMT+2 8: window.close win1
+5/25/2025, 5:58:28 PM GMT+2 9: webContents.destroyed web1
+5/25/2025, 5:58:28 PM GMT+2 10: window.closed win1
+5/25/2025, 5:58:32 PM GMT+2 11: window.close win2
+5/25/2025, 5:58:34 PM GMT+2 12: window.close win2
+5/25/2025, 5:58:36 PM GMT+2 13: before-quit
+5/25/2025, 5:58:36 PM GMT+2 14: window.close win2
+5/25/2025, 5:58:49 PM GMT+2 0: 
+
+----------------------------------------------
+5/25/2025, 5:58:49 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.95"}, modulepath: /home/marvin/.config/discord/0.0.95/modules
+5/25/2025, 5:58:49 PM GMT+2 2: ✅ webContents.created web1 ""
+5/25/2025, 5:58:49 PM GMT+2 3: ✅ window.created win1 "discord"
+5/25/2025, 5:58:49 PM GMT+2 4: ✅ webContents.did-finish-load web1
+5/25/2025, 5:58:50 PM GMT+2 5: ✅ webContents.created web2 ""
+5/25/2025, 5:58:50 PM GMT+2 6: ✅ window.created win2 "Discord"
+5/25/2025, 5:58:50 PM GMT+2 7: ✅ webContents.did-finish-load web2
+5/25/2025, 5:58:50 PM GMT+2 8: window.close win1
+5/25/2025, 5:58:50 PM GMT+2 9: webContents.destroyed web1
+5/25/2025, 5:58:50 PM GMT+2 10: window.closed win1
+5/25/2025, 5:58:51 PM GMT+2 11: window.close win2
+5/25/2025, 5:58:52 PM GMT+2 12: ✅ webContents.did-finish-load web2
+5/25/2025, 5:58:53 PM GMT+2 0: 
+
+----------------------------------------------
+5/25/2025, 5:58:54 PM GMT+2 13: window.close win2
+5/25/2025, 5:58:58 PM GMT+2 14: before-quit
+5/25/2025, 6:05:52 PM GMT+2 0: 
+
+----------------------------------------------
+5/25/2025, 6:05:52 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.95"}, modulepath: /home/marvin/.config/discord/0.0.95/modules
+5/25/2025, 6:05:52 PM GMT+2 2: ✅ webContents.created web1 ""
+5/25/2025, 6:05:52 PM GMT+2 3: ✅ window.created win1 "discord"
+5/25/2025, 6:05:52 PM GMT+2 4: ✅ webContents.did-finish-load web1
+5/25/2025, 6:05:53 PM GMT+2 5: window.close win1
+5/25/2025, 6:05:53 PM GMT+2 6: webContents.destroyed web1

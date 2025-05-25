@@ -1,0 +1,8 @@
+2025/05/25-17:58:29.092 57d2 Creating DB /home/marvin/.config/thorium/Default/Local Extension Settings/cgbcahbpdhpcegmbfconppldiemgcoii since it was missing.
+2025/05/25-17:58:29.116 57d2 Reusing MANIFEST /home/marvin/.config/thorium/Default/Local Extension Settings/cgbcahbpdhpcegmbfconppldiemgcoii/MANIFEST-000001
+2025/05/25-17:58:30.927 57d4 Level-0 table #5: started
+2025/05/25-17:58:30.959 57d4 Level-0 table #5: 4242851 bytes OK
+2025/05/25-17:58:30.967 57d4 Delete type=0 #3
+2025/05/25-17:58:37.697 57d4 Level-0 table #7: started
+2025/05/25-17:58:37.722 57d4 Level-0 table #7: 4995814 bytes OK
+2025/05/25-17:58:37.727 57d4 Delete type=0 #4

@@ -1,7 +1,7 @@
 * {
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    border-radius: 15px;
+    font-size: 16;
+    border-radius: 15;
 }
 
 .modules-center {
@@ -54,34 +54,42 @@ window#waybar {
 }
 
 #workspaces {
-background: rgba(30, 30, 30, 0.9);
+    background: rgba(30, 30, 30, 0.9);
+    padding-left: 20;
+    padding-right: 20;
 }
 
 #window {
-background: rgba(100, 100, 100, 0.9);
+    background: rgba(100, 100, 100, 0.9);
+    padding-left: 20;
+    padding-right: 20;
+}
+
+#network {
+    padding-left: 20;
 }
 
 #cpu {
-padding-right: 15px;
+    padding-right: 15;
 }
 
 #memory {
-padding-right: 12px;
+    padding-right: 12;
 }
 
 #pulseaudio {
-	padding-right: 30px;
-	padding-left: 15px;
+	padding-right: 30;
+	padding-left: 15;
 }
 
 #tray {
-	padding-right: 20px;
+	padding-right: 20;
 }
 
 #custom-power {
- padding-right: 15px;
+     padding-right: 15;
 }
 
 #clock {
- padding: 0px 35px;
+     padding: 0 20;
 }
