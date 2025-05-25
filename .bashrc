@@ -22,7 +22,6 @@ config-sync() {
   config add .config/nvim
   config add .config/waybar
   config add .config/dunst
-  config add .config/alacritty
   config add .config/hypr
   config add .config/neofetch
   config add .config/starship
