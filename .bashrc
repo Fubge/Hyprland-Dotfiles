@@ -7,7 +7,7 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias config='/usr/bin/git --git-dir=/home/marvin/.cfg/ --work-tree=/home/marvin'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 
 PS1='[\u@\h \W]\$ '
@@ -21,8 +21,8 @@ config-sync() {
   config add .gitignore
   config add .config/nvim
   config add .config/waybar
-  config add .config/alacritty
   config add .config/dunst
+  config add .config/alacritty
   config add .config/hypr
   config add .config/neofetch
   config add .config/starship
