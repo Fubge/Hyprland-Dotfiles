@@ -1,0 +1,52 @@
+# Cache-Verzeichnisse
+**/cache/
+**/Cache/
+**/.cache/
+**/CacheStorage/
+**/Service Worker/
+**/Code Cache/
+**/__pycache__/
+**/tmp/
+**/temp/
+**/logs/
+**/log/
+
+# Browser-Storage-Dateien
+**/Local Storage/
+**/IndexedDB/
+**/Session Storage/
+**/GPUCache/
+**/databases/
+**/blob_storage/
+
+# Node & Paketmanager
+**/node_modules/
+**/.npm/
+**/.yarn/
+**/.parcel-cache/
+**/.vite/
+
+# Editor-spezifisch
+**/.DS_Store
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+
+# System & Papierkorb
+**/.Trash/
+**/.local/share/Trash/
+
+# Medien-Caches
+**/thumbnails/
+**/media-cache/
+**/recently-used.xbel
+
+# Flatpak/Firefox/Chromium/Thorium etc.
+.config/*/*/Cache/
+.config/*/*/cache/
+.config/thorium-browser/
+.config/chromium/
+.config/google-chrome/
+.config/firefox/
