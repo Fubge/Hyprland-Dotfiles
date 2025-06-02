@@ -66,25 +66,26 @@ window#waybar {
 }
 
 #network {
-    padding-left: 2;
-    padding-right: 20;
+    padding-left: 5;
+    padding-right: 15;
 }
 
-
 #temperature {
-    padding-right: 20;
+    padding-right: 15;
+    margin-right: 0;
 }
 
 #cpu {
-    padding-right: 20;
+    padding-right: 15;
 }
 
 #memory {
     padding-right: 20;
+    padding-left: 0;
 }
 
 #pulseaudio {
-	padding-right: 14;
+	padding-right: 20;
 	padding-left: 20;
 }
 
