@@ -23,7 +23,7 @@ configuration {
     padding: 0;
 }
 
-#window {
+window {
     background-color: @background;
     border: 1px;
     border-radius: 25px;
@@ -32,25 +32,31 @@ configuration {
     margin: 0;
 }
 
-#mainbox {
+mainbox {
     background-color: @background;
     spacing: 10px;
     margin: 10px 0 0 0;
     width: 200px;
 }
 
-#inputbar {
+inputbar {
     children: [prompt,entry];
     background-color: @background;
 }
 
-#listview {
+listview {
     background-color: @background;
     margin: 5px 0 0 10px;
-    lines: 6;
+    spacing: 10px;
+    lines: 7;
+    columns: 2;
+    dynamic: false;
+    fixed-columns: true;
 }
 
-#element {
+element {
+    orientation: horizontal;
+    children: [element-icon, element-text];
     padding: 5px;
     background-color: @background;
     text-color: @foreground;
@@ -64,22 +70,27 @@ element selected {
 element-text {
     background-color: inherit;
     text-color: inherit;
+    vertical-align: 0.5;
 }
 
 element-icon {
     background-color: inherit;
     margin: 0 4px 0 0;
-    size: 25px;
+    size: 1.5em;
 }
 
-#entry {
+entry {
+   cursor: pointer;
+   cursor-color: @bg-selected;
+   hide-cursor-on-empty: true;
+   cursor-width: 8px;
    background-color: @background;
    text-color: @foreground;
    placeholder: "Search";
    placeholder-color: @grey;
 }
 
-#prompt {
+prompt {
    background-color: @background;
    padding: 0 4px;
    margin: 0 5px 0 0;
