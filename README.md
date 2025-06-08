@@ -2,7 +2,7 @@
 
 This is my dotfiles repository for my Arch Linux setup with Hyprland.
 
-![Desktop Preview](screenshot.png)
+![image](https://github.com/user-attachments/assets/5c4af698-d776-4cbe-b98b-651ba28c9fe9)
 
 ## Setup
 
