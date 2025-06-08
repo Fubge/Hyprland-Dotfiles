@@ -27,7 +27,7 @@ config-sync() {
   config add .config/starship
   config add .config/kitty
   config add .config/rofi
-  config add wallpaper 
+  config add wallpaper
   
   config commit -m "Update configs"
   config push
