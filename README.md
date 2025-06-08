@@ -1,4 +1,4 @@
-# Arch Linux Dotfiles
+# Hyprland Dotfiles
 
 This is my dotfiles repository for my Arch Linux setup with Hyprland.
 
