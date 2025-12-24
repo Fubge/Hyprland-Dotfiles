@@ -29,7 +29,14 @@ config-sync() {
   config add .config/rofi
   config add wallpaper
   
-  config commit -m "Update configs"
+  echo "--- Config Sync ---"
+  read -p "Enter Commit Message: " msg
+  
+  if [-z "$msg" ]; then
+      msg="Update configs"
+  fi
+
+  config commit -m "$msg"
   config push
 }
 
