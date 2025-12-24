@@ -16,6 +16,9 @@ eval "$(starship init bash)"
 export XDG_CURRENT_DESKTOP=Hyprland
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
+
+
+# Alias to add, commit and push config changes 
 config-sync() {
   config add .bashrc
   config add .gitignore
