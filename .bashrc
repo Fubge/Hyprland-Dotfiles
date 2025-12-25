@@ -9,14 +9,11 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias config='/usr/bin/git --git-dir=$HOME/.config.git/ --work-tree=$HOME'
 
-
 PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
 export XDG_CURRENT_DESKTOP=Hyprland
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
-
-
 
 # Alias to add, commit and push config changes 
 config-sync() {
